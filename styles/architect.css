@@ -182,6 +182,15 @@ main > section{
 .sponsors-company img{
     filter: grayscale(100%);
 }
+.footer-text{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 40px 400px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 /* Responsive small decice*/
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -208,6 +217,10 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-text{
+       text-align: center;
+  word-wrap: break-word;
+  padding: 1rem;
 }
 
 
